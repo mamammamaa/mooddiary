@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>my mood diary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>How are you feeling today?</h1>
+    <div class="emoticon">(˶˃ ᵕ ˂˶)</div>
+
+    <div class="moods">
+      <button onclick="setMood('happy')">Happy</button>
+      <button onclick="setMood('sad')">Sad</button>
+      <button onclick="setMood('tired')">Tired</button>
+      <button onclick="setMood('love')">Loved</button>
+        <button onclick="setMood('angry')">Angry</button>
+        <button onclick="setMood('grateful')">Grateful</button>
+        <button onclick="setMood('lonely')">Lonely</button>
+        <button onclick="setMood('hopeful')">Hopeful</button>
+        <button onclick="setMood('confused')">Confused</button>
+        <button onclick="setMood('unmotivated')">Unmotivated</button>
+
+        
+    </div>
+
+    <button class="generate" onclick="generateAffirmation()">
+      Get Affirmation •⩊•
+    </button>
+
+    <div id="output"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

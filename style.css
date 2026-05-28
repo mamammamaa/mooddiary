@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI1LTA0L21vdGFybzdfc2t5X29mX2ZhaXJ5X2ZhaXJ5X2Nsb3Vkc19hZXN0aGV0aWNfd2FsbHBhcGVyX3N1bnNldF9zdV9hNzA0MjJiZi1iM2RjLTQyNjgtYTI5Ny0xMDVhMmM5YWE0ZGUtam9iMjAxNi1tOWpnZjdlNy5qcGc.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.emoticon {
+  margin-bottom: 20px;
+}
+
+.moods button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.generate {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #ffb6c1;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 16px;
+}
